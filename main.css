@@ -1,0 +1,14 @@
+/* ADD YOUR STYLES HERE */
+/*	HORIZONTIALLY SPACED */
+.ex6 {
+	display: inline-block;
+	padding:20px;
+	vertical-align: top;
+}
+.div-image {
+	line-height: 250px;
+}
+.ex7 {
+	display: inline-block;
+	vertical-align: middle;
+}
