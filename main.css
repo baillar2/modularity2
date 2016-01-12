@@ -82,4 +82,57 @@
 	text-decoration: none;
 	}
 	/* PAGINATION */
+
+.pages li{
+	display: inline-block;
+	text-decoration: none;
+	padding:4px 10px;
+	margin-right: 3px;
+	margin-left: 3px;
+	color: #ff8080;
+	padding-bottom: 3px;
+	border-bottom: 3px solid #ff8080;
+}
+.pages li {
+	font-size: 20px;
+}
+.pages li a{
+	color: #ff8080;
+	font-size: 20px;
+	text-decoration:none;
+}
+.pages li:first-child {
+	border-bottom:  none;
+}
+.pages li:last-child {
+	border-bottom: none;
+}
+.pages li:hover {
+	color: gray;
+	border-bottom: 3px solid gray;
+}
+.pages li a:hover {
+	color: gray;
 	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
