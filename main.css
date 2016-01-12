@@ -12,3 +12,11 @@
 	display: inline-block;
 	vertical-align: middle;
 }
+.grandpa {
+	line-height: 400px;
+}
+.parent {
+	vertical-align: middle;
+	display: inline-block;
+	line-height: initial;
+}
