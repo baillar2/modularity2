@@ -119,6 +119,7 @@
 .entry {
 	display: block;
 	height: auto;
+	clear: both;
 	/*position: relative;*/
 }
 .avatar {
