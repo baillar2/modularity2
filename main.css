@@ -113,14 +113,20 @@
 }
 .pages li a:hover {
 	color: gray;
-	
 }
+/* COMMENT STREAM */
 
-
-
-
-
-
+.entry {
+	display: block;
+	height: auto;
+	/*position: relative;*/
+}
+.avatar {
+	float: left;
+}
+.comment {
+	clear: right;
+}
 
 
 
