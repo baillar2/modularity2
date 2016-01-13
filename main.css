@@ -87,13 +87,11 @@
 	display: inline-block;
 	text-decoration: none;
 	padding:4px 10px;
-	margin-right: 3px;
 	margin-left: 3px;
+	margin-right: 3px;
 	color: #ff8080;
 	padding-bottom: 3px;
 	border-bottom: 3px solid #ff8080;
-}
-.pages li {
 	font-size: 20px;
 }
 .pages li a{
@@ -117,19 +115,25 @@
 /* COMMENT STREAM */
 
 .entry {
+	position: relative;
 	display: block;
 	height: auto;
 	clear: both;
-	/*position: relative;*/
 }
 .avatar {
-	float: left;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
+
 .comment {
-	clear: right;
+	display: inline-block;
+	vertical-align: top;
 }
-
-
+time {
+	font-size: 10px;
+	color: #a6a6a6;
+}
 
 
 
