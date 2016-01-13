@@ -135,10 +135,38 @@ time {
 	color: #a6a6a6;
 }
 
+/* tabs */
 
-
-
-
+.tab-nav {
+	list-style-type: none;
+}
+.tab-nav li {
+	display: inline-block;
+	border:thin solid blue;
+	border-radius: 5px 5px 0 0;
+	border-bottom: thin solid white;
+	margin: 0 4px 0 4px;
+	padding:1px;
+}
+.tab-nav li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: blue;
+	font-weight: bold;
+	}
+.tab-nav li a div {
+	padding: 2px;
+}
+.content {
+	border: 1px solid blue;
+	border-radius: 5px;
+	padding:10px;
+	}
+.active {
+	position: relative;
+	top: 1px;
+	z-index: 2;
+}
 
 
 
